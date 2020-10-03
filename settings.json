@@ -1,15 +1,14 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "python.defaultInterpreterPath": "/usr/bin/python3",
     "window.zoomLevel": 2,
     "code-runner.clearPreviousOutput": true,
     "code-runner.temporaryFileName": "tempCodeRunnerFile",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName",
         "shellscript": "bash",
         "javascript": "node",
     },
-    "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "Chilly",
     "python.showStartPage": false,
     "workbench.sideBar.location": "left",
@@ -17,7 +16,5 @@
     "python.linting.enabled": true,
     "python.formatting.blackPath": "black",
     "editor.formatOnSave": true,
-    "cSpell.userWords": [
-        "awsomeproject"
-    ],
+    "AREPL.pythonPath": "/usr/bin/python3",
 }
