@@ -533,7 +533,9 @@ PROMPT_COMMAND=bash_prompt_command
 bash_prompt
 unset bash_prompt
 
+# 10-5-2020 Added most
 
+export PAGER="most"
 
 
 ### EOF ###
