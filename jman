@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+#10-6-2020
+#jman -- Study guide script which generates a random user command man page to study
+# Author -- J Lynch for J Lynch Transportation LLC
+# Version -- 1.00
+
+
+import os
+import random
+
+os.chdir('/usr/share/man/man1')
+learnCommand = []
+
+for f in os.listdir():
+    name, ext = os.path.splitext(f)
+    manName, *num = name.split('.')
+    learnCommand.append(manName)
+
+lc = random.choice(learnCommand)
+
+os.system(f'man {lc}')
+
+
+#EOF
