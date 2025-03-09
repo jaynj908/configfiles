@@ -1,0 +1,23 @@
+{
+    "name": "jtl",
+    "publisher": "J",
+    "displayName": "JTL",
+    "description": "Dark theme for JTL Transportation LLC",
+    "version": "0.0.1",
+    "author": "Jay Lynch",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "transport theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/transport theme-color-theme.json"
+            }
+        ]
+    }
+}
